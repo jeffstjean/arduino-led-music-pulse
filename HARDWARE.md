@@ -3,7 +3,6 @@
 This project was created using the following parts. Components can be interchanged, however there is no guarantee they will function as intended.
 
 ## Parts List
----
 
 ### Arduino
 
