@@ -80,6 +80,8 @@ void loop() {
     int constrainedBass = constrain(filteredBass, 170, 850); // constrain the bass to these values
 
     ledValue = map(constrainedBass, 170, 850, 10, 255); // map the bass to analog numbers (10-255) - anything less than 10 looks bad
+
+    Serial.println(ledValue);
     
     if(ledValue > 200) { // if this value is above the 'bass hit' value...
       if(!highBassFlag) { // if not still apart of a previous bass hit...
