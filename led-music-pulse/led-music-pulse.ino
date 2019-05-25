@@ -19,13 +19,13 @@ You should have received a copy of the GNU General Public License along with thi
 unsigned int sampling_period_us;
 unsigned long microseconds;
 arduinoFFT FFT = arduinoFFT();
-int musicPin = 14; // audio in pin
+int musicPin = A5; // audio in pin
 uint16_t *ptr; // memory of recent bass values to pass to microsmooth.h
 double vReal[SAMPLES]; //   real    array of FFT
 double vImag[SAMPLES]; // imaginary array of FFT
 
 //Light Strip Variables
-#define LED_PIN 6 // led pin
+#define LED_PIN 4 // led pin
 int NUM_LEDS = 60; // number of LEDs on light strip
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(NUM_LEDS, LED_PIN, NEO_GRB + NEO_KHZ800);
 
@@ -80,10 +80,11 @@ void loop() {
     int constrainedBass = constrain(filteredBass, 170, 850); // constrain the bass to these values
 
     ledValue = map(constrainedBass, 170, 850, 10, 255); // map the bass to analog numbers (10-255) - anything less than 10 looks bad
+    //ledValue = map(v, , , 10, 255)
 
     Serial.println(ledValue);
     
-    if(ledValue > 200) { // if this value is above the 'bass hit' value...
+    if(ledValue > 130) { // if this value is above the 'bass hit' value...
       if(!highBassFlag) { // if not still apart of a previous bass hit...
         highBassFlag = true; // say that it is a new bass hit
         mode++; // switch to the next mode (colour)
