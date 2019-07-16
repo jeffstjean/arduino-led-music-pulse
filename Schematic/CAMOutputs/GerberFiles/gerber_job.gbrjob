@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-07-16T20:44:36Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.4.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "musicpulse"
+        },
+        "Owner": "Jeff St. Jean <jstjean3@uwo.ca>",
+        "Size": {
+            "X": 70.79,
+            "Y": 48.25
+        }
+    }
+}

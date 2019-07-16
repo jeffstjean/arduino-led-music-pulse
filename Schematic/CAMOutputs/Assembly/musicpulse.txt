@@ -1,0 +1,14 @@
+Partlist exported from /Users/jeff/Documents/Programming/git/arduino-led-music-pulse/Schematic/musicpulse.sch at 2019-07-16 4:44 PM
+
+Qty Value                Device                          Package                 Parts                      Description                                                                                                     PROD_ID   VALUE
+3                        CONN_02                         1X02                    AUDIO, PUSH, PWR           Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections                
+4                        CONN_03                         1X03                    LIGHTS, POT1, POT2, SLIDER Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections                
+2                        LED-3MM-NO_SILK                 LED_3MM-NS              GREEN, YELLOW              LED (Generic)                                                                                                                  
+1                        V_REG_78XXSINK                  TO220-IGO               UA7805C                    Voltage Regulator                                                                                                              
+1   0.1uF                10UF-POLAR-RADIAL-2.5MM-25V-20% CPOL-RADIAL-2.5MM-5MM   C6                         10.0µF polarized capacitors                                                                                     CAP-08440 10uF 
+1   0.33uF               10UF-POLAR-RADIAL-2.5MM-25V-20% CPOL-RADIAL-2.5MM-5MM   C5                         10.0µF polarized capacitors                                                                                     CAP-08440 10uF 
+2   100                  1KOHM-HORIZ-1/4W-1%             AXIAL-0.3               R4, R6                     1kΩ resistor                                                                                                    RES-12182 1k   
+2   10K                  1KOHM-HORIZ-1/4W-1%             AXIAL-0.3               R5, R7                     1kΩ resistor                                                                                                    RES-12182 1k   
+1   1uF                  10UF-POLAR-RADIAL-2.5MM-25V-20% CPOL-RADIAL-2.5MM-5MM   C1                         10.0µF polarized capacitors                                                                                     CAP-08440 10uF 
+1   4.3K                 1KOHM-HORIZ-1/4W-1%             AXIAL-0.3               R1                         1kΩ resistor                                                                                                    RES-12182 1k   
+1   TEENSY_3.1-3.2_DIL+4 TEENSY_3.1-3.2_DIL+4            TEENSY_3.0-3.2&LC_DIL+4 U$2                        Teensy 3.1 and 3.2 in a DIL package with the inner 4 pins                                                                      
