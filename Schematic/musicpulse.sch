@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -4454,7 +4454,7 @@ Spark Fun Electronics SKU : COM-00107</description>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
 <part name="GND3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="U$2" library="Teensy_3_and_LC_Series_Boards_v1.4" deviceset="TEENSY_3.1-3.2_DIL+4" device=""/>
+<part name="U$2" library="Teensy_3_and_LC_Series_Boards_v1.4" deviceset="TEENSY_3.1-3.2_DIL+4" device="" value="TEENSY_3.2"/>
 <part name="GND6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="POT1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1"/>
 <part name="GND10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
@@ -4462,17 +4462,20 @@ Spark Fun Electronics SKU : COM-00107</description>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
 <part name="POT2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1"/>
 <part name="GND8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="R6" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-HORIZ-1/4W-1%" package3d_urn="urn:adsk.eagle:package:39658/1" value="100"/>
-<part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-HORIZ-1/4W-1%" package3d_urn="urn:adsk.eagle:package:39658/1" value="100"/>
+<part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-HORIZ-1/4W-1%" package3d_urn="urn:adsk.eagle:package:39658/1" value="330"/>
+<part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-HORIZ-1/4W-1%" package3d_urn="urn:adsk.eagle:package:39658/1" value="330"/>
 <part name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-HORIZ-1/4W-1%" package3d_urn="urn:adsk.eagle:package:39658/1" value="10K"/>
 <part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-HORIZ-1/4W-1%" package3d_urn="urn:adsk.eagle:package:39658/1" value="4.3K"/>
-<part name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-HORIZ-1/4W-1%" package3d_urn="urn:adsk.eagle:package:39658/1" value="10K"/>
-<part name="C1" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF-POLAR" device="-RADIAL-2.5MM-25V-20%" package3d_urn="urn:adsk.eagle:package:37423/1" value="1uF"/>
-<part name="C5" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF-POLAR" device="-RADIAL-2.5MM-25V-20%" package3d_urn="urn:adsk.eagle:package:37423/1" value="0.33uF"/>
-<part name="C6" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF-POLAR" device="-RADIAL-2.5MM-25V-20%" package3d_urn="urn:adsk.eagle:package:37423/1" value="0.1uF"/>
+<part name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-HORIZ-1/4W-1%" package3d_urn="urn:adsk.eagle:package:39658/1" value="10K"/>
+<part name="C3" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF-POLAR" device="-RADIAL-2.5MM-25V-20%" package3d_urn="urn:adsk.eagle:package:37423/1" value="1uF"/>
+<part name="C2" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF-POLAR" device="-RADIAL-2.5MM-25V-20%" package3d_urn="urn:adsk.eagle:package:37423/1" value="0.33uF"/>
+<part name="C1" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF-POLAR" device="-RADIAL-2.5MM-25V-20%" package3d_urn="urn:adsk.eagle:package:37423/1" value="0.1uF"/>
 <part name="GREEN" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="-3MM-NO_SILK" package3d_urn="urn:adsk.eagle:package:39356/1"/>
 <part name="YELLOW" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="-3MM-NO_SILK" package3d_urn="urn:adsk.eagle:package:39356/1"/>
 <part name="UA7805C" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" deviceset="V_REG_78XX" device="SINK" package3d_urn="urn:adsk.eagle:package:39063/1"/>
+<part name="SUPPLY8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
+<part name="SUPPLY9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
+<part name="R6" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-HORIZ-1/4W-1%" package3d_urn="urn:adsk.eagle:package:39658/1" value="10K"/>
 </parts>
 <sheets>
 <sheet>
@@ -4562,11 +4565,11 @@ Spark Fun Electronics SKU : COM-00107</description>
 <instance part="GND8" gate="1" x="25.4" y="45.72" smashed="yes" rot="R90">
 <attribute name="VALUE" x="25.654" y="45.72" size="1.778" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="R6" gate="G$1" x="60.96" y="104.14" smashed="yes">
+<instance part="R4" gate="G$1" x="60.96" y="104.14" smashed="yes">
 <attribute name="NAME" x="60.96" y="105.664" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="60.96" y="102.616" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="R4" gate="G$1" x="101.6" y="104.14" smashed="yes">
+<instance part="R3" gate="G$1" x="101.6" y="104.14" smashed="yes">
 <attribute name="NAME" x="101.6" y="105.664" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="101.6" y="102.616" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
@@ -4578,19 +4581,19 @@ Spark Fun Electronics SKU : COM-00107</description>
 <attribute name="NAME" x="133.096" y="83.82" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="136.144" y="83.82" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="R7" gate="G$1" x="134.62" y="68.58" smashed="yes" rot="R90">
+<instance part="R2" gate="G$1" x="134.62" y="68.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="133.096" y="68.58" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="136.144" y="68.58" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="C1" gate="G$1" x="149.86" y="76.2" smashed="yes" rot="R270">
+<instance part="C3" gate="G$1" x="149.86" y="76.2" smashed="yes" rot="R270">
 <attribute name="NAME" x="150.495" y="75.184" size="1.778" layer="95" font="vector" rot="R270"/>
 <attribute name="VALUE" x="145.669" y="75.184" size="1.778" layer="96" font="vector" rot="R270"/>
 </instance>
-<instance part="C5" gate="G$1" x="132.08" y="25.4" smashed="yes">
+<instance part="C2" gate="G$1" x="132.08" y="25.4" smashed="yes">
 <attribute name="NAME" x="133.096" y="26.035" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="133.096" y="21.209" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="C6" gate="G$1" x="154.94" y="25.4" smashed="yes">
+<instance part="C1" gate="G$1" x="154.94" y="25.4" smashed="yes">
 <attribute name="NAME" x="155.956" y="26.035" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="155.956" y="21.209" size="1.778" layer="96" font="vector"/>
 </instance>
@@ -4606,6 +4609,16 @@ Spark Fun Electronics SKU : COM-00107</description>
 <attribute name="NAME" x="148.336" y="29.972" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="140.97" y="43.18" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="SUPPLY8" gate="G$1" x="111.76" y="88.9" smashed="yes" rot="R270">
+<attribute name="VALUE" x="114.554" y="88.9" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY9" gate="G$1" x="35.56" y="7.62" smashed="yes" rot="R180">
+<attribute name="VALUE" x="35.56" y="4.826" size="1.778" layer="96" rot="R180" align="bottom-center"/>
+</instance>
+<instance part="R6" gate="G$1" x="35.56" y="15.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="34.036" y="15.24" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="37.084" y="15.24" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4619,7 +4632,7 @@ Spark Fun Electronics SKU : COM-00107</description>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="134.62" y1="60.96" x2="134.62" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="LIGHTS" gate="J$1" pin="1"/>
@@ -4642,8 +4655,8 @@ Spark Fun Electronics SKU : COM-00107</description>
 <wire x1="144.78" y1="20.32" x2="144.78" y2="17.78" width="0.1524" layer="91"/>
 <junction x="144.78" y="20.32"/>
 <pinref part="GND9" gate="1" pin="GND"/>
-<pinref part="C5" gate="G$1" pin="-"/>
-<pinref part="C6" gate="G$1" pin="-"/>
+<pinref part="C2" gate="G$1" pin="-"/>
+<pinref part="C1" gate="G$1" pin="-"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="GND"/>
@@ -4688,8 +4701,8 @@ Spark Fun Electronics SKU : COM-00107</description>
 <label x="129.54" y="76.2" size="1.778" layer="95" rot="R180"/>
 <wire x1="144.78" y1="76.2" x2="134.62" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="R7" gate="G$1" pin="2"/>
-<pinref part="C1" gate="G$1" pin="-"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="C3" gate="G$1" pin="-"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="14/A0"/>
@@ -4715,8 +4728,13 @@ Spark Fun Electronics SKU : COM-00107</description>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="VIN"/>
-<wire x1="104.14" y1="88.9" x2="106.68" y2="88.9" width="0.1524" layer="91"/>
-<label x="106.68" y="88.9" size="1.778" layer="95"/>
+<wire x1="104.14" y1="88.9" x2="109.22" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="SUPPLY8" gate="G$1" pin="VCC"/>
+<wire x1="109.22" y1="88.9" x2="111.76" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="104.14" x2="109.22" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="109.22" y1="104.14" x2="109.22" y2="88.9" width="0.1524" layer="91"/>
+<junction x="109.22" y="88.9"/>
 </segment>
 <segment>
 <pinref part="POT1" gate="J$1" pin="1"/>
@@ -4727,6 +4745,20 @@ Spark Fun Electronics SKU : COM-00107</description>
 <pinref part="POT2" gate="J$1" pin="1"/>
 <pinref part="SUPPLY7" gate="G$1" pin="VCC"/>
 <wire x1="20.32" y1="38.1" x2="22.86" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="135.89" y1="33.02" x2="132.08" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="27.94" x2="132.08" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="+"/>
+<pinref part="UA7805C" gate="G$1" pin="OUT"/>
+<pinref part="SUPPLY4" gate="G$1" pin="VCC"/>
+<wire x1="132.08" y1="33.02" x2="124.46" y2="33.02" width="0.1524" layer="91"/>
+<junction x="132.08" y="33.02"/>
+</segment>
+<segment>
+<pinref part="SUPPLY9" gate="G$1" pin="VCC"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="35.56" y1="7.62" x2="35.56" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LIGHTS" class="0">
@@ -4760,8 +4792,12 @@ Spark Fun Electronics SKU : COM-00107</description>
 <net name="SLIDE" class="0">
 <segment>
 <pinref part="SLIDER" gate="J$1" pin="2"/>
-<wire x1="20.32" y1="22.86" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
-<label x="25.4" y="22.86" size="1.778" layer="95"/>
+<wire x1="20.32" y1="22.86" x2="35.56" y2="22.86" width="0.1524" layer="91"/>
+<label x="40.64" y="22.86" size="1.778" layer="95"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="35.56" y1="22.86" x2="40.64" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="20.32" x2="35.56" y2="22.86" width="0.1524" layer="91"/>
+<junction x="35.56" y="22.86"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="12/MISO"/>
@@ -4776,35 +4812,15 @@ Spark Fun Electronics SKU : COM-00107</description>
 <wire x1="154.94" y1="33.02" x2="151.13" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="27.94" x2="154.94" y2="33.02" width="0.1524" layer="91"/>
 <junction x="154.94" y="33.02"/>
-<pinref part="C6" gate="G$1" pin="+"/>
+<pinref part="C1" gate="G$1" pin="+"/>
 <pinref part="UA7805C" gate="G$1" pin="IN"/>
-</segment>
-</net>
-<net name="LED_GREEN" class="0">
-<segment>
-<wire x1="106.68" y1="104.14" x2="109.22" y2="104.14" width="0.1524" layer="91"/>
-<label x="109.22" y="104.14" size="1.778" layer="95"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<wire x1="135.89" y1="33.02" x2="132.08" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="SUPPLY4" gate="G$1" pin="VCC"/>
-<wire x1="132.08" y1="33.02" x2="127" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="127" y1="33.02" x2="124.46" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="27.94" x2="132.08" y2="33.02" width="0.1524" layer="91"/>
-<junction x="132.08" y="33.02"/>
-<wire x1="127" y1="33.02" x2="127" y2="35.56" width="0.1524" layer="91"/>
-<junction x="127" y="33.02"/>
-<label x="127" y="35.56" size="1.778" layer="95" rot="R90"/>
-<pinref part="C5" gate="G$1" pin="+"/>
-<pinref part="UA7805C" gate="G$1" pin="OUT"/>
 </segment>
 </net>
 <net name="LED_YELLOW" class="0">
 <segment>
 <wire x1="55.88" y1="104.14" x2="53.34" y2="104.14" width="0.1524" layer="91"/>
 <label x="40.64" y="104.14" size="1.778" layer="95"/>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="10/TX2/PWM"/>
@@ -4823,7 +4839,7 @@ Spark Fun Electronics SKU : COM-00107</description>
 <segment>
 <pinref part="AUDIO" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="76.2" x2="152.4" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="+"/>
+<pinref part="C3" gate="G$1" pin="+"/>
 </segment>
 </net>
 <net name="POT2" class="0">
@@ -4852,13 +4868,13 @@ Spark Fun Electronics SKU : COM-00107</description>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="YELLOW" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="GREEN" gate="G$1" pin="A"/>
 </segment>
 </net>
