@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2019-07-16T20:44:36Z",
+        "CreationDate": "2019-07-18T22:33:03Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -18,7 +18,7 @@
         "Owner": "Jeff St. Jean <jstjean3@uwo.ca>",
         "Size": {
             "X": 70.79,
-            "Y": 48.25
+            "Y": 41.9
         }
     }
 }
