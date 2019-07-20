@@ -1,4 +1,4 @@
-Partlist exported from /Users/jeff/Documents/Programming/git/arduino-led-music-pulse/Schematic/musicpulse.sch at 2019-07-18 6:33 PM
+Partlist exported from /Users/jeff/Documents/Programming/git/arduino-led-music-pulse/Schematic/musicpulse.sch at 2019-07-20 6:34 PM
 
 Qty Value      Device                          Package                 Parts                      Description                                                                                                     PROD_ID   VALUE
 3              CONN_02                         1X02                    AUDIO, PUSH, PWR           Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections                
